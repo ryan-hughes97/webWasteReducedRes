@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 350px;
+  max-height: 350px;
+  margin: auto;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1);
+  row-gap: 1rem;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
